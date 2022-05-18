@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Thasadith:ital@1&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: min-content;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgb(184, 182, 182), -2px 2px 5px rgb(184, 182, 182), 2px -2px 5px rgb(184, 182, 182), -2px -2px 5px rgb(184, 182, 182);
+    position: relative;
+}
+
+#svg {
+    position: relative;
+}
+
+#title {
+    font-family: "Thasadith", sans-serif;
+}
+
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    padding: 2px;
+    background: lightsteelblue;
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+    background-color: white;
+    font: 10px;
+}
+
+.overlay {
+    position: absolute;
+    background: white;
+    pointer-events: none;
+    width: 100px;
+    height: 40px;
+}
