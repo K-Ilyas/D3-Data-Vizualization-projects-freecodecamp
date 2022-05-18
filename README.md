@@ -1,6 +1,7 @@
 # D3-Data-Vizualization-projects-freecodecamp
 D3 Data Vizualization Certification Projects Solutions : 
-
+#### 1- Visualize Data with a Bar Chart
+#### 2- Visualize Data with a Scatterplot Graph
 
 <br />
 
